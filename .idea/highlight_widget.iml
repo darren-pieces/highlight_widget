@@ -8,10 +8,10 @@
       <excludeFolder url="file://$MODULE_DIR$/highlight/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/flutter_highlight/build" />
       <excludeFolder url="file://$MODULE_DIR$/flutter_highlight/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/flutter_highlight/.dart_tool" />
-      <excludeFolder url="file://$MODULE_DIR$/flutter_highlight/example/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/flutter_highlight/example/.dart_tool" />
-      <excludeFolder url="file://$MODULE_DIR$/flutter_highlight/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/example/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
