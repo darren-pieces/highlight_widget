@@ -91,14 +91,11 @@ class HighlightView extends StatelessWidget {
     return Container(
       color: theme[_rootKey]?.backgroundColor ?? _defaultBackgroundColor,
       padding: padding,
-      child: InputDecorator(
-        decoration: InputDecoration(),
-        child: SelectableText.rich(
-          TextSpan(
-            style: _textStyle,
-            children:
-                _convert(highlight.parse(source, language: language).nodes!),
-          ),
+      child: SelectableText.rich(
+        TextSpan(
+          style: _textStyle,
+          children:
+              _convert(highlight.parse(source, language: language).nodes!),
         ),
       ),
     );
